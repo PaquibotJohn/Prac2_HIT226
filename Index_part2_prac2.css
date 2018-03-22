@@ -1,0 +1,66 @@
+body{
+    background-color: #23F528;
+}
+.form{
+    font:Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    background: #C0C0C0;
+    -webkit-box-shadow: 1px 1px 3px 2px #2ebc99;
+    box-shadow: 1px 1px 3px 2px #2ebc99;
+}
+.form h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    margin: -16px -16px 16px -16px;
+    -webkit-box-shadow: 1px 1px 3px 2px #2ebc99;
+    box-shadow: 1px 1px 3px 2px #2ebc99;
+}
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="tel"],
+.form textarea,
+.form select {
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding:20px;
+    color: #555;
+    font:Arial, Helvetica, sans-serif;
+}
+.form input[type="text"]:focus,
+.form input[type="date"]:focus,
+.form input[type="tel"]:focus,
+.form textarea:focus,
+.form select:focus {
+    padding: 3%;
+    border: 1px solid #43D1AF;
+    -webkit-box-shadow: 1px 1px 3px 2px #2ebc99;
+    box-shadow: 1px 1px 3px 2px #2ebc99;
+}
+.form input[type="submit"]:hover,
+.form input[type="button"]:hover {
+    background: #2EBC99;
+    -webkit-box-shadow: 1px 1px 3px 2px #2ebc99;
+     box-shadow: 1px 1px 3px 2px #2ebc99;
+}
+
+.form input[type="submit"],
+.form input[type="button"]{
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #7AFF9C;
+    border-bottom: 1px solid #30C29E;
+    font-size: 20px;
+    color: black;
+    -webkit-box-shadow: 1px 1px 3px 2px #2ebc99;
+    box-shadow:1px 1px 3px 2px #2ebc99;
+}
